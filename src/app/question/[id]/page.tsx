@@ -27,7 +27,7 @@ export default async function Page({ params
 
 function QuestionMessage({ children }: QuestionMessageProps) {
   return (
-    <div className="px-4 py-2 text-sm md:text-lg max-w-full overflow-auto">
+    <div className="flex items-center p-6 pt-0 text-md lg:text-xl overflow-auto text-center">
       {children}
     </div>
   );
